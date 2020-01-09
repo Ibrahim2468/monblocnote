@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_enregistrer"
+        app:showAsAction="always"
+        android:icon="@drawable/enregistrer"
+        android:title="Enregistrer" />
+
+    <item android:id="@+id/action_supprimer"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/supprimer"
+        android:title="Supprimer" />
+</menu>
